@@ -1,0 +1,63 @@
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content {
+    width: 900px;
+    padding-left:  75px; 
+    height: 600px;
+    background-color: #383635;
+    border: rgb(53, 52, 52) 1px solid;
+    border-radius: 10%;
+}
+
+header {
+    font: 5em sans-serif;
+    font-family: Chiller, Calibri;
+    text-align: center;
+    color: red;
+}
+@font-face {
+    font-family: 'Chiller';
+    src: url(../font/CHILLER.TTF);
+}
+html {
+    background-image: url("../img-src/Graveyard_01.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    padding-top: 50;
+    width: 100px;
+    height: 100px;
+}
+
+.track {
+    height: 200px;
+    width: 800px;
+    background-image: url("../img-src/top-view-of-race-track-with-start-and-finish-line-free-vector.jpg");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font: 3em Chiller, Calibri;
+    border: none;
+    color: blue;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+button:hover{
+    background-color: red;
+}
